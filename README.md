@@ -4,8 +4,8 @@ Artist portfolio Website
 Using Html + Css only
 
 Content:
-- home page /home
-- About /home #about
+- home page /index
+- About /index #about
 - Gallery /gallery
 - Blog /blog
 
