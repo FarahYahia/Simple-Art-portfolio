@@ -174,7 +174,7 @@ h1 {
 }
 .about-content h2{
   font-family: "Vollkorn", serif;
-  font-size: clamp(1.5rem, 1.5vw, 3rem);
+  font-size: clamp(1.5rem, 2vw, 3rem);
   width: 100%;
   text-align: left;
   margin:0 auto;
@@ -209,7 +209,7 @@ h1 {
 
 .specialty-section h2{
   font-family: "Vollkorn", serif;
-  font-size: 2.4rem;
+  font-size: clamp(1.5rem, 2vw, 3rem);
   width: 100%;
   text-align: center;
   padding: 2%;
@@ -272,7 +272,7 @@ h1 {
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
-  font-size: 2.5rem;
+  font-size: clamp(1.5rem, 2vw, 3rem);
   width: 100%;
   text-align: center;
   color: #fff;
@@ -357,12 +357,13 @@ h1 {
 
 }
 .artwork h2{
-  font: 2.5rem "Vollkorn", serif;
+  font-size: clamp(1.5rem, 2vw, 3rem);
   width: 100%;
 }
 .artwork p{
-  padding: 1% 13% 0 13%;
-  font: 1.2rem "Vollkorn", serif;
+  width: 100%;
+  padding: 1% 12% 0 12%;
+  font-size: clamp(0.8rem, 1vw, 1.5rem);
   color: rgb(46, 46, 46);
 }
 
@@ -860,7 +861,7 @@ footer {
     padding: 14% 3%;
   }
   .specialty-section h2{
-    font-size: 1.8rem;
+    font-size: clamp(1.5rem, 2vw, 3rem);
   }
   .specialty-container {
     grid-template-columns: 1fr; /* One column per row */

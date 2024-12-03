@@ -1,12 +1,12 @@
 # Simple Art portfolio
-Artist portfolio Website
+<h2>Artist portfolio Website</h2>
 
 Using Html + Css only
 
 Content:
-- home page /index
+- Home page /index
 - About /index #about
-- Gallery /gallery
-- Blog /blog
+- Responsive Gallery /gallery
+- Static Blog /blog
 
 Project done by Me.
