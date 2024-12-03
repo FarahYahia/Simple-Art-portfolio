@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Oooh+Baby&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Art Gallery</title>
+</head>
+ 
+<body>
+    <header style="background-color: #8ea4acbd; position: static ;">
+        <input type="checkbox" id="menu-toggle" style="visibility:hidden"/>
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <div>
+            <img
+              src="img/logo.png"
+              alt="Logo"
+              class="logo"
+            />
+          </div>
+        <ul>
+            <li><a href="home.html#home">Home</a></li>
+            <li><a href="home.html#about">About Me</a></li>
+            <li><a href="#gallery">Gallery </a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </header>
+    <section class="banner">
+            <img src="img/banner.png" alt="Banner">
+            <h1 >Discover a stunning collection of my art</h1>
+    </section>
+    <section class="gallery" id="gallery">
+        <!-- Pure CSS Lightbox BY G0regory Schier: https://codepen.io/gschier/pen/kyRXVx -->
+        <!-- image credits: https://unsplash.com - image licensed under https://unsplash.com/license -->
+
+        <a name="img-row"  style="display: none;"></a>
+        <!-- 1 -->
+        <a class="card card-wide card-tall" href="#img1"> 
+            <img class="card card-wide card-tall" src="https://images.unsplash.com/photo-1515405295579-ba7b45403062?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img1">
+            <span style="background-image: url('https://images.unsplash.com/photo-1515405295579-ba7b45403062?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt"> It came with a wave, and washed slowly ashore. </span>
+        </a>
+        <!-- 2 --> 
+        <a class="card card-tall" href="#img2">
+            <img class="card card-tall" src="https://images.unsplash.com/photo-1640322476800-f42ce8bb15ac?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img2">
+            <span style="background-image: url('https://images.unsplash.com/photo-1640322476800-f42ce8bb15ac?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt">Red. </span>   
+        </a>
+        <!-- 3 -->
+        <a class="card card-tall" href="#img3">
+        <img class="card card-tall" src="https://images.unsplash.com/photo-1515405295579-ba7b45403062?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img3">
+            <span style="background-image: url('https://images.unsplash.com/photo-1515405295579-ba7b45403062?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt"> It came with a wave, and washed slowly ashore. </span>
+
+        </a>
+        <!-- 4 -->
+        <a class="card card-wide" href="#img4">
+            <img class="card card-wide" src="https://images.unsplash.com/photo-1541425353346-6755ab2da592?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img4">
+            <span style="background-image: url('https://images.unsplash.com/photo-1541425353346-6755ab2da592?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt">momentum II </span>
+
+        </a>
+        <!-- 5 -->
+        <a class="card card-tall" href="#img5">
+            <img class="card card-tall" src="https://images.unsplash.com/photo-1642544767998-0f21b22f9449?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMwfHx8ZW58MHx8fHx8">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img5">
+            <span style="background-image: url('https://images.unsplash.com/photo-1642544767998-0f21b22f9449?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMwfHx8ZW58MHx8fHx8')"></span>
+            <span class="txt"> blue painting </span>
+        </a>
+        <!-- 6 -->
+        <a class="card card-wide card-tall" href="#img6">
+            <img class="card card-wide card-tall" src="https://images.unsplash.com/photo-1640716209382-431219d0225d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img6">
+            <span style="background-image: url('https://images.unsplash.com/photo-1640716209382-431219d0225d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt"> texture </span>
+
+        </a>
+        <!-- 7 -->
+        <a class="card card-tall" href="#img7">
+            <img class="card card-tall" src="https://images.unsplash.com/photo-1642544767998-0f21b22f9449?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMwfHx8ZW58MHx8fHx8">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img7">
+            <span style="background-image: url('https://images.unsplash.com/photo-1642544767998-0f21b22f9449?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMwfHx8ZW58MHx8fHx8')"></span>
+            <span class="txt"> blue painting. </span>
+        </a>
+        <!-- 8 -->  
+        <a class="card card-tall" href="#img8">
+            <img class="card card-tall" src="https://plus.unsplash.com/premium_photo-1673288397715-12c2fbb9f52b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img8">
+            <span style="background-image: url('https://plus.unsplash.com/premium_photo-1673288397715-12c2fbb9f52b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D')"></span>
+            <span class="txt"> Textures & Patterns. </span>
+        </a>
+        <!-- 9 -->
+        <a class="card card-wide" href="#img9">
+            <img class="card card-wide" src="https://images.unsplash.com/photo-1640322476800-f42ce8bb15ac?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img9">
+            <span style="background-image: url('https://images.unsplash.com/photo-1640322476800-f42ce8bb15ac?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt">Red.</span>
+        </a>
+        <!-- 10 -->
+        <a class="card card-wide card-tall" href="#img10">
+            <img class="card card-wide card-tall" src="https://images.unsplash.com/photo-1541425353346-6755ab2da592?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img10">
+            <span style="background-image: url('https://images.unsplash.com/photo-1541425353346-6755ab2da592?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt"> momentum II </span>
+        </a>
+        <!-- 11 -->
+        <a class="card card-tall" href="#img11">
+            <img class="card card-tall" src="https://images.unsplash.com/photo-1594201272716-9ad78d16848b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img11">
+            <span style="background-image: url('https://images.unsplash.com/photo-1594201272716-9ad78d16848b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt"> Find me a place of comfort. Find me a place of solace     </span>
+        </a>
+        <!-- 12 -->
+        <a class="card card-tall" href="#img12">
+            <img class="card card-tall" src="https://plus.unsplash.com/premium_photo-1673288397715-12c2fbb9f52b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img12">
+            <span style="background-image: url('https://plus.unsplash.com/premium_photo-1673288397715-12c2fbb9f52b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D')"></span>
+            <span class="txt"> Textures & Patterns.  </span>
+        </a>
+        <!-- 13 -->
+        <a class="card card-tall" href="#img13">
+            <img class="card card-tall" src="https://images.unsplash.com/photo-1594201272716-9ad78d16848b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img13">
+            <span style="background-image: url('https://images.unsplash.com/photo-1594201272716-9ad78d16848b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt"> Find me a place of comfort. Find me a place of solace </span>
+        </a>
+        <!-- 14 -->
+        <a class="card card-wide" href="#img14">
+            <img class="card card-wide" src="https://images.unsplash.com/photo-1515405295579-ba7b45403062?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img14">
+            <span style="background-image: url('https://images.unsplash.com/photo-1515405295579-ba7b45403062?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt"> It came with a wave, and washed slowly ashore. </span>
+        </a>
+        <!-- 15 -->
+        <a class="card" href="#img15">
+            <img class="card" src="https://images.unsplash.com/photo-1640716209382-431219d0225d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img15">
+            <span style="background-image: url('https://images.unsplash.com/photo-1640716209382-431219d0225d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt"> It came with a wave, and washed slowly ashore. </span>
+        </a>
+         <!-- 1 Repeated -------->
+        <a class="card card-wide card-tall" href="#img16"> 
+            <img class="card card-wide card-tall" src="https://images.unsplash.com/photo-1515405295579-ba7b45403062?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img16">
+            <span style="background-image: url('https://images.unsplash.com/photo-1515405295579-ba7b45403062?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt"> It came with a wave, and washed slowly ashore. </span>
+        </a>
+        <!-- 2 --> 
+        <a class="card card-tall" href="#img31">
+            <img class="card card-tall" src="https://images.unsplash.com/photo-1640322476800-f42ce8bb15ac?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img31">
+            <span style="background-image: url('https://images.unsplash.com/photo-1640322476800-f42ce8bb15ac?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt">Red. </span>   
+        </a>
+        <!-- 3 -->
+        <a class="card card-tall" href="#img17">
+        <img class="card card-tall" src="https://images.unsplash.com/photo-1515405295579-ba7b45403062?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img17">
+            <span style="background-image: url('https://images.unsplash.com/photo-1515405295579-ba7b45403062?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt"> It came with a wave, and washed slowly ashore. </span>
+
+        </a>
+        <!-- 4 -->
+        <a class="card card-wide" href="#img18">
+            <img class="card card-wide" src="https://images.unsplash.com/photo-1541425353346-6755ab2da592?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img18">
+            <span style="background-image: url('https://images.unsplash.com/photo-1541425353346-6755ab2da592?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt">momentum II </span>
+
+        </a>
+        <!-- 5 -->
+        <a class="card card-tall" href="#img19">
+            <img class="card card-tall" src="https://images.unsplash.com/photo-1642544767998-0f21b22f9449?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMwfHx8ZW58MHx8fHx8">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img19">
+            <span style="background-image: url('https://images.unsplash.com/photo-1642544767998-0f21b22f9449?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMwfHx8ZW58MHx8fHx8')"></span>
+            <span class="txt"> blue painting </span>
+        </a>
+        <!-- 6 -->
+        <a class="card card-wide card-tall" href="#img20">
+            <img class="card card-wide card-tall" src="https://images.unsplash.com/photo-1640716209382-431219d0225d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img20">
+            <span style="background-image: url('https://images.unsplash.com/photo-1640716209382-431219d0225d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt"> texture </span>
+
+        </a>
+        <!-- 7 -->
+        <a class="card card-tall" href="#img22">
+            <img class="card card-tall" src="https://images.unsplash.com/photo-1642544767998-0f21b22f9449?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMwfHx8ZW58MHx8fHx8">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img22">
+            <span style="background-image: url('https://images.unsplash.com/photo-1642544767998-0f21b22f9449?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMwfHx8ZW58MHx8fHx8')"></span>
+            <span class="txt"> blue painting. </span>
+        </a>
+        <!-- 8 -->  
+        <a class="card card-tall" href="#img23">
+            <img class="card card-tall" src="https://plus.unsplash.com/premium_photo-1673288397715-12c2fbb9f52b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img23">
+            <span style="background-image: url('https://plus.unsplash.com/premium_photo-1673288397715-12c2fbb9f52b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D')"></span>
+            <span class="txt"> Textures & Patterns. </span>
+        </a>
+        <!-- 9 -->
+        <a class="card card-wide" href="#img24">
+            <img class="card card-wide" src="https://images.unsplash.com/photo-1640322476800-f42ce8bb15ac?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img24">
+            <span style="background-image: url('https://images.unsplash.com/photo-1640322476800-f42ce8bb15ac?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt">Red.</span>
+        </a>
+        <!-- 10 -->
+        <a class="card card-wide card-tall" href="#img25">
+            <img class="card card-wide card-tall" src="https://images.unsplash.com/photo-1541425353346-6755ab2da592?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img25">
+            <span style="background-image: url('https://images.unsplash.com/photo-1541425353346-6755ab2da592?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt"> momentum II </span>
+        </a>
+        <!-- 11 -->
+        <a class="card card-tall" href="#img26">
+            <img class="card card-tall" src="https://images.unsplash.com/photo-1594201272716-9ad78d16848b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img26">
+            <span style="background-image: url('https://images.unsplash.com/photo-1594201272716-9ad78d16848b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt"> Find me a place of comfort. Find me a place of solace     </span>
+        </a>
+        <!-- 12 -->
+        <a class="card card-tall" href="#img27">
+            <img class="card card-tall" src="https://plus.unsplash.com/premium_photo-1673288397715-12c2fbb9f52b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img27">
+            <span style="background-image: url('https://plus.unsplash.com/premium_photo-1673288397715-12c2fbb9f52b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D')"></span>
+            <span class="txt"> Textures & Patterns.  </span>
+        </a>
+        <!-- 13 -->
+        <a class="card card-tall" href="#img28">
+            <img class="card card-tall" src="https://images.unsplash.com/photo-1594201272716-9ad78d16848b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img28">
+            <span style="background-image: url('https://images.unsplash.com/photo-1594201272716-9ad78d16848b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt"> Find me a place of comfort. Find me a place of solace </span>
+        </a>
+        <!-- 14 -->
+        <a class="card card-wide" href="#img29">
+            <img class="card card-wide" src="https://images.unsplash.com/photo-1515405295579-ba7b45403062?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img29">
+            <span style="background-image: url('https://images.unsplash.com/photo-1515405295579-ba7b45403062?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt"> It came with a wave, and washed slowly ashore. </span>
+        </a>
+        <!-- 15 -->
+        <a class="card" href="#img30">
+            <img class="card" src="https://images.unsplash.com/photo-1640716209382-431219d0225d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </a>         
+        <a href="#img-row" class="lightbox" id="img30">
+            <span style="background-image: url('https://images.unsplash.com/photo-1640716209382-431219d0225d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></span>
+            <span class="txt"> It came with a wave, and washed slowly ashore. </span>
+        </a>
+    </section>
+</body>
+<footer>
+    <div class="footer-content">
+        <h3>Art</h3>
+        <p>Creating a space where art meets the soul.</p>
+    </div>
+    <ul class="socials"> <!-- Social Icon credits: icons8.com -->
+        <li>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="https://img.icons8.com/?size=100&id=32292&format=png&color=FFFFFF" alt="instagram Icon" >
+            </a>
+        </li>
+        <li>
+            <a href="https://www.x.com" target="_blank">
+                <img src="https://img.icons8.com/?size=100&id=fJp7hepMryiw&format=png&color=FFFFFF" alt="X Icon" >
+            </a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com" target="_blank">
+                <img src="https://img.icons8.com/?size=100&id=37325&format=png&color=FFFFFF" alt="YouTube Icon" >
+            </a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="https://img.icons8.com/?size=100&id=y5JIrUFMX5be&format=png&color=FFFFFF" alt="LinkedIn Icon" >
+            </a>
+        </li>
+    </ul>
+    <div class="footer-bottom">
+        <p>Copyright &copy; 2024 <a href="https://www.linkedin.com/in/farah-webdev/">Farah Yahia</a>. All rights reserved.</p>
+    </div>
+</footer>
+
+</html>
