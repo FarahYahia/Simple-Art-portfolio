@@ -7,5 +7,3 @@ Content:
 - About /index #about
 - Responsive Gallery /gallery
 - Static Blog /blog
-
-Project done by Me.
