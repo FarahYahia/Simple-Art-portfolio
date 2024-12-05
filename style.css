@@ -717,6 +717,8 @@ footer {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+/* .blog-section{
+} */
 .sidebar{
   display: flex;
   flex-direction: column;
@@ -804,7 +806,20 @@ footer {
   .about-content{
     width: 100%;
   }
+  .header-banner{
+    height: 200px;
+  }
+  .blog-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar, .content{
+    width: 100%;
 
+  }
+  .sidebar div{
+    margin: 2%;
+  }
  }
 
   @media (max-width: 600px) {
