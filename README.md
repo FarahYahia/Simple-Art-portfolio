@@ -1,5 +1,4 @@
-# Simple Art portfolio
-<h2>Artist portfolio Website</h2>
+# Artist portfolio Website
 
 Using Html + Css only
 
