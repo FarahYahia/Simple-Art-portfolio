@@ -7,8 +7,11 @@
 body{
   font-family: "Vollkorn", serif;
   background-color: #fafafa;
+  max-width:100%;
 
 }
+
+
 header{
   padding: 1.2em 0 1.2em;
   margin: 0;
@@ -21,7 +24,6 @@ header{
   transition: background-color 0.3s;
   backdrop-filter: blur(8px); /* a blur effect */
   width: 100%;
-
 }
 header .logo{
   max-height: 85%;
@@ -806,12 +808,23 @@ footer {
   .about-content{
     width: 100%;
   }
+  .about-img{
+    width: 100%;
+  }  
+  .specialty-section {
+    flex-direction: column;
+    padding: 14% 3%;
+  }
   .header-banner{
     height: 200px;
   }
   .blog-section{
     display: flex;
     flex-direction: column;
+  }
+  .quote {
+    grid-template-columns: 1fr; /* One column per row */
+
   }
   .sidebar, .content{
     width: 100%;
@@ -871,10 +884,11 @@ footer {
     background: url("img/poster.png") no-repeat center;
     background-size: cover;
   }
-  .specialty-section {
+  /* .specialty-section {
     flex-direction: column;
     padding: 14% 3%;
-  }
+    
+  } */
   .specialty-section h2{
     font-size: clamp(1.5rem, 2vw, 3rem);
   }
@@ -882,10 +896,13 @@ footer {
     grid-template-columns: 1fr; /* One column per row */
     max-width: 100%;/* Ensure items don't exceed container width */
     max-height: 100%;
+    gap: 2%;
+    
   }
   .specialty-container .specialty {
     max-width: 100%;/* Ensure items don't exceed container width */
     max-height: 100%;
+    
   }
   .quote {
     grid-template-columns: 1fr; /* One column per row */
